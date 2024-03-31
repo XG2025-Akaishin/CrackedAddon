@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "me.akaishin.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

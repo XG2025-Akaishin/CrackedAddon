@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "cracked",
+  "version": "${version}",
+  "name": "Cracked Addon",
+  "description": "Addon Cracked-Client (Meteor added).",
+  "authors": [
+    "akaishin"
+  ],
+  "contact": {
+    "repo": "null",
+    "sources": "null",
+    "issues": "null"
+  },
+  "icon": "assets/cracked-addon/textures/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "me.akaishin.Cracked"
+    ]
+  },
+  "mixins": [
+    "Cracked.mixins.json"
+  ],
+  "accessWidener": "accesswidener",
+  "custom": {
+    "meteor-client:color": "146,188,98"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": ">=0.5.1"
+  }
+}
