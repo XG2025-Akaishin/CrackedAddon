@@ -1,0 +1,2 @@
+# CrackedAddon
+CrackedAddon MeteorClient
